@@ -1,0 +1,106 @@
+.whole-container {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}
+
+.pt-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pt-4 {
+    width: 75%;
+}
+
+.pt-1 {
+    width: 25%;
+
+    .sidebarContainer {
+        margin-bottom: 50px;
+        margin-top: 70px;  
+
+        .blog-sidebar {
+            text-align: center;
+            // margin-bottom: 25px;
+            // max-width: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            // &:focus, &:hover {
+            //     color: #a9a9aa;
+            //     text-decoration: none;
+            // }
+        }
+
+        .sidebarTitle {
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            margin-bottom: 40px;
+
+            &:hover {
+                &:focus, &:hover {
+                    color: #a9a9aa;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.blog-content {
+    max-height: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .blog-img {
+            height: 350px;
+            width: 450px;
+        }
+    } 
+
+    .title {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .author {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .button {
+            color: white;
+        }
+    }
+}
+

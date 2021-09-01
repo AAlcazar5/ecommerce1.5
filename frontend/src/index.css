@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair_Display'), url(./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 
+    /* -apple-system, 
+    BlinkMacSystemFont, */
+    'Montserrat',
+    'Playfair Display',
+    'Lato',
+    /* 'Ubuntu', 
+    'Cantarell', 
+    'Fira Sans', 
+    'Droid Sans', */
+    sans-serif;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 
+  'Montserrat',
+  'Playfair Display',
+  'Lato'
+    /* source-code-pro, 
+    Menlo, 
+    Monaco, 
+    Consolas, 
+    'Courier New', */
+    monospace;
+}

@@ -1,0 +1,28 @@
+.hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../assets/hero1.jpg') center/cover no-repeat;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+@media(min-width: 1024px) {
+    .hero-image {
+        font-size: 2.5rem;
+    }
+}
+
+.shop-now-btn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,53 @@
+.return-request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-reason {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .feedbackArea {
+        width: 800px;
+        height: 500px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph {
+    width: 800px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,103 @@
+h1 {
+    display: table;
+    margin: 40px auto;
+    color: #fff;
+    font: 30px Helvetica;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h2 {
+  display: table;
+  margin: 40px auto;
+  color: black;
+  font: 30px Helvetica;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.contact {
+  // background-image: linear-gradient(to right, rgba(255,0,0,0), grey);
+  h1 {
+    text-align: center;
+  }
+}
+
+  .formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    .form {
+      display: table;
+      margin: 40px auto;
+      // padding-top: 100px;
+      background-color: white;
+      height: 600px;
+      justify-content: center;
+      border-radius: 25px;
+      border: 2px solid lightgray;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+      input,
+      textarea {
+        font: 18px Helvetica, Arial, sans-serif;
+        box-sizing: border-box;
+        display: block;
+        border: none;
+        padding: 20px;
+        width: 800px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        outline: none;
+        transition: all 0.2s ease-in-out;
+        border-bottom: black;
+    
+        &::placeholder {
+          transition: all 0.2s ease-in-out;
+          color: #999;
+          font: 18px Helvetica, Arial, sans-serif;
+        }
+    
+        &:focus,
+        &.populated {
+          padding-top: 28px;
+          padding-bottom: 12px;
+    
+          &::placeholder {
+            color: transparent;
+          }
+        }
+      }
+    
+      textarea {
+        height: 200px;
+        border-bottom: black;
+      }
+    
+      button {
+        transition: all 0.2s ease-in-out;
+        font: 18px Helvetica, Arial, sans-serif;
+        border: none;
+        background: black;
+        color: #fff;
+        padding: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    
+        &:hover {
+          background: gray;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  

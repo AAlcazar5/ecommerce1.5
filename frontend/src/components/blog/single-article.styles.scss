@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.article-content {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1000px;
+
+
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .blog-img {
+            height: 600px;
+            width: 800px;
+        }
+    }
+
+    .title {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .author {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .button {
+            color: white;
+        }
+    }
+}

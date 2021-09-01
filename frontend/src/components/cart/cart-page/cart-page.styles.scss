@@ -1,0 +1,113 @@
+h1, .empty-cart {
+    text-align: center;
+}
+
+.cart-item {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 2rem;
+    padding: 1rem;
+
+    .item-image {
+        img {
+            width: 50px
+        }
+    }
+
+    .name-price {
+        h4 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: normal;
+        }
+    }
+
+    .btns-container {
+        button {
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 10px;
+            margin-right: 5px;
+        }
+
+        .btn-increase {
+            color: #fff;
+            background-color: green;
+            border: 0.5px solid green;
+        }
+
+        .btn-decrease {
+            color: #fff;
+            background-color: darkgoldenrod;
+            border: 0.5px solid yellow;
+        }
+
+        .btn-trash {
+            color: #fff;
+            background-color: #d9534f;
+            border: 0.5px solid #d9534f;
+        }
+    }
+}
+
+.total-container {
+    margin: 4rem;
+    // border: 1px solid #ccc;
+
+    .item-count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .total {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .white-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .black-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1024px) {
+    .cart-page {
+        display: flex;
+        justify-content: center; 
+
+        .total-container {
+            text-align: center;
+        }
+    }
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        div {
+            margin: 1rem;
+        }
+        .name-price {
+            width: 200px
+        }
+    }
+}
+
+.quantity {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding-top: 5px;
+}
